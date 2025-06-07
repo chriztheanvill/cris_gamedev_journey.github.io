@@ -6,14 +6,6 @@ categories: [gamedev]
 tags: [linux,cpp,godot]
 ---
 
-## 🧾 Table of Contents
-
-- [👨‍💻 High-Performance Game Development with Modern C++](#-portfolio---software-engineer--c-developer)
-  - [💼 High-Performance Game Development with Modern C++](#-about-me)
-
-
----
-
 # C++26-Powered 2D RPG (Godot Engine)  
 *A Souls-like / Bullet-Hell Hybrid with Fallout-Inspired RPG Systems*
 

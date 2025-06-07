@@ -6,13 +6,6 @@ categories: [gamedev]
 tags: [linux,cpp,sdl2]
 ---
 
-## 🧾 Table of Contents
-
-- [👨‍💻 High-Performance Game Development with Modern C++](#-portfolio---software-engineer--c-developer)
-  - [💼 High-Performance Game Development with Modern C++](#-about-me)
-
----
-
 # Hi, I'm Cris 👋
 
 I'm a passionate software developer focused on game development and systems programming.

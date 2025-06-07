@@ -6,14 +6,6 @@ categories: [gamedev]
 tags: [linux,cpp,sdl2]
 ---
 
-## 🧾 Table of Contents
-
-- [👨‍💻 High-Performance Game Development with Modern C++](#-portfolio---software-engineer--c-developer)
-  - [💼 High-Performance Game Development with Modern C++](#-about-me)
-
-
----
-
 # SDL2 Engine - High-Performance 2D ECS Game Engine
 
 Welcome to the official repository and development journal of **SDL2 Engine**, a high-performance 2D game engine built from scratch using **modern C++26** features. This project is an ongoing effort to explore advanced programming paradigms, performance optimization techniques, and modern build systems while creating a flexible and scalable foundation for 2D games.
