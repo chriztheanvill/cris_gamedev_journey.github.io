@@ -31,10 +31,10 @@ I'm a passionate software developer focused on game development and systems prog
 
 ## 🚀 Active Projects
 
-### 1. [ECS Engine in C++](https://github.com/yourusername/ecs-engine)
+### 1. [ECS Engine in C++](https://github.com/chriztheanvill/SDL2_Engine)
 
-- [git source](https://github.com/yourusername/ecs-engine)
-- [page](/cris_gamedev_journey.github.io/post/engine_ecs)
+- [git source](https://github.com/chriztheanvill/SDL2_Engine/tree/0.0.8-alt)
+- [page](/cris_gamedev_journey.github.io/posts/engine_ecs/)
 
 Developing a custom Entity-Component-System game engine from scratch using modern C++.
 
@@ -45,7 +45,7 @@ Developing a custom Entity-Component-System game engine from scratch using moder
 
 ### 2. Godot Game Project
 
-- [page](/cris_gamedev_journey.github.io/post/godot_game_cpp)
+- [page](/cris_gamedev_journey.github.io/posts/godot_game_cpp)
 
 Creating a 2D game using Godot Engine with C++ modules for performance-critical parts.
 
