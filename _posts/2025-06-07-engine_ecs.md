@@ -147,7 +147,7 @@ Check out some visual progress of the engine in action:
 
 ---
 
-## 🧑‍💻 Developed By: Christopher
+## 🧑‍💻 Developed By: Cris
 
 Software Engineer | Game Dev Enthusiast  
 
