@@ -6,7 +6,7 @@ categories: [gamedev]
 tags: [linux,cpp,godot]
 ---
 
-# C++26-Powered 2D RPG (Godot Engine)  
+# C++26-Powered 2D RPG (Godot Engine) (Cancelled)
 *A Souls-like / Bullet-Hell Hybrid with Fallout-Inspired RPG Systems*
 
 This project represents an ambitious blend of modern C++ development practices and game design innovation. Built using **Godot Engine** and deeply integrated with **C++26**, it showcases how cutting-edge language features can enhance performance, maintainability, and expressiveness in real-time applications like games.
