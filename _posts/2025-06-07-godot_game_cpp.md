@@ -6,24 +6,23 @@ categories: [gamedev]
 tags: [linux,cpp,godot]
 ---
 
-# C++26-Powered 2D RPG (Godot Engine) (Cancelled)
-*A Souls-like / Bullet-Hell Hybrid with Fallout-Inspired RPG Systems*
+# C++26-Powered 2D RPG (Godot Engine)
+*A Souls-like / Bullet-Hell*
 
 This project represents an ambitious blend of modern C++ development practices and game design innovation. Built using **Godot Engine** and deeply integrated with **C++26**, it showcases how cutting-edge language features can enhance performance, maintainability, and expressiveness in real-time applications like games.
 
 ---
 
-## 🔧 Development Stack
+## Development Stack
 
 - **Language**: Modern C++26 (with `-fno-rtti` for binary optimization)
 - **Build System**: CMake + Conan2 for dependency management
 - **IDE**: CLion
-- **Graphics & UI**: SDL2, Godot Engine (for rendering and GUI)
 - **Tools**: Valgrind, Profiling tools, Precompiled Headers (via CMake), SQLite
 
 ---
 
-## 🚀 Recent Advancements
+## Recent Advancements
 
 ### Performance Improvements
 We've achieved a **massive boost in runtime efficiency** thanks to:
@@ -34,30 +33,23 @@ We've achieved a **massive boost in runtime efficiency** thanks to:
 
 ### Architectural Enhancements
 - **Event Bus System**: Implemented a lightweight event bus using `std::function` and lambdas for decoupled communication between subsystems (e.g., GUI ↔ combat logic).
-- **Functional Paradigm**: Leveraging higher-order functions and lambda expressions to simplify complex state transitions and callbacks.
 - **Monads in Practice**: Introduced monadic structures for optional chaining (e.g., safe item usage, stat checks) inspired by functional programming patterns.
 
 ### Data Handling & Persistence
 - **SQLite Integration**: Used SQLite not only for saving player progression but also for dynamic queries such as tracking "most used weapon" or crafting stats.
-- Optimized transaction batching for fast saves during high-intensity gameplay moments.
 
 ---
 
-## 📦 Core Technologies in Depth
+## Core Technologies in Depth
 
 ### C++26 Highlights
 - **`std::ranges` / `std::views`**: For efficient, readable filtering and transformations on enemy groups or inventory items.
 - **`std::function` & Lambdas**: As the backbone of event-driven systems (GUI events, AI behaviors).
 - **Compile-Time Optimization**: With Conan2 and CMake, we’ve streamlined build pipelines and ensured reproducibility.
 
-### Design Patterns
-- **Strategy Pattern**: For interchangeable item effects and enemy behaviors.
-- **Finite State Machines (FSM)**: Managing entity states (Player, Enemy, Prop interactions).
-- **Singleton Pattern**: For globally accessible managers like PlayerStats and Inventory.
-
 ---
 
-## 🛠️ Development Workflow
+## Development Workflow
 
 - **Code Quality & Debugging**
   - Static analysis via Clang-Tidy
@@ -67,11 +59,10 @@ We've achieved a **massive boost in runtime efficiency** thanks to:
 - **Toolchain**
   - CLion for code navigation and refactoring
   - Git Submodules for engine integration
-  - GitHub Actions for CI/CD pipelines (build + test)
 
 ---
 
-## 🎮 Game Features Overview
+## Game Features Overview
 
 | Feature                   | Description                                           |
 | ------------------------- | ----------------------------------------------------- |
@@ -82,23 +73,9 @@ We've achieved a **massive boost in runtime efficiency** thanks to:
 
 ---
 
-## 🧪 Challenges Overcome
-
-1. **Adapting Godot’s Node Hierarchy to C++26 Functional Paradigms**  
-   Bridging the gap between Godot's object-oriented node tree and idiomatic C++ required careful abstraction layers and smart pointer management.
-
-2. **Optimizing SQLite Transactions**  
-   Ensured smooth performance during combat by implementing batched writes and transaction pooling.
-
-3. **Cross-Engine Integration**  
-   Maintaining clean separation between Godot-based rendering/UI and C++26 core logic has been critical to long-term scalability.
-
----
-
-## 🧩 Looking Ahead
+## Looking Ahead
 
 - More advanced AI using behavior trees powered by functional combinators
-- Multiplayer support exploration
-- Shader-based VFX enhancements using SDL2 and OpenGL interop
+- Shader-based VFX enhancements
 
 ---

@@ -6,11 +6,11 @@ categories: [gamedev]
 tags: [linux,cpp,sdl2]
 ---
 
-# Hi, I'm Cris 👋
+# Hi, I'm Cris
 
 I'm a passionate software developer.
 
-## 🔧 Current Focus Areas
+## Current Focus Areas
 
 - **C++ Development**
   - Modern C++ (C++17/23 features)
@@ -29,25 +29,9 @@ I'm a passionate software developer.
   - Godot engine integration
   - Switching from Godot to Unity
 
-## 🚀 Active Projects
+## Active Projects
 
-### 1. [DOD Engine in C++](https://github.com/chriztheanvill/SDL2_Engine)
-
-- [git source](https://github.com/chriztheanvill/SDL2_Engine/tree/0.0.8-alt)
-- [page](/cris_gamedev_journey.github.io/posts/engine_ecs/)
-
-Developing a custom Data Oriented Design game engine from scratch using modern C++.
-
-**Recent Progress:**
-- Implemented basic entity management
-- Working on memory-efficient component storage
-- Integrating SDL2 for initial rendering
-
-### 2. Zig + Raylib or Kotlin + libgdx
-
-> I found challenger and fun unsing Zig or Kotlin. So, I will try them.
-
-### 3. Godot Game Project (Cancelled)
+### 1. Godot Game Project
 
 - [page](/cris_gamedev_journey.github.io/posts/godot_game_cpp)
 
@@ -76,6 +60,18 @@ Creating a 2D game using Godot Engine with C++ modules for performance-critical 
 - Godot C++ module compilation workflows
 - Find out Zig and Kotlin really fun.
 
+
+### 2. [DOD Engine in C++](https://github.com/chriztheanvill/SDL2_Engine)
+
+- [git source](https://github.com/chriztheanvill/SDL2_Engine/tree/0.0.8-alt)
+- [page](/cris_gamedev_journey.github.io/posts/engine_ecs/)
+
+Developing a custom Data Oriented Design game engine from scratch using modern C++.
+
+**Recent Progress:**
+- Implemented basic entity management
+- Working on memory-efficient component storage
+- Integrating SDL2 for initial rendering
 ---
 
 _Last updated: {{ site.time | date: "%B %d, %Y" }}_
